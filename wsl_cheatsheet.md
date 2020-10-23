@@ -110,17 +110,17 @@ Scroll down to click on save.
 
 If you experience slow network on your fresh WSL2:
 
-- Open Ubuntu (or your other distro)
+ - Open Ubuntu (or your other distro)
 
-- Open Network Connections in your settings ("View network connections" in your windows search)
+ - Open Network Connections in your settings ("View network connections" in your windows search)
 
-- You should see
+ - You should see
 
  ```bash
    vEthernet (WSL)
    Enabled
    Hyper-V Virtual Ethernet Adapter
-```
+ ```
 
  - Right-click and open Properties
 
@@ -141,12 +141,12 @@ If the alias `localhost:8000` for the local machine is not working, try to conne
 
 If that is still not reaching the server, follow these instructions to restart `wsl` :
 
-- Open a new Windows PowerShell tab in the terminal
-- Run `wsl --shutdown` to shutdown WSL.
-- Run `wsl` or open a new tab to restart WSL.
-- Change directory to the one dedicated to the exercise
-- Run `serve`
-- Access to at least `127.0.0.1:8000` should be available.
+ - Open a new Windows PowerShell tab in the terminal
+ - Run `wsl --shutdown` to shutdown WSL.
+ - Run `wsl` or open a new tab to restart WSL.
+ - Change directory to the one dedicated to the exercise
+ - Run `serve`
+ - Access to at least `127.0.0.1:8000` should be available.
 
 # Tips
 
