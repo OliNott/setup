@@ -107,8 +107,13 @@ On the same page, click on **System Rules** and enabled the first 2 options `Win
 Scroll down to click on save.
 
 ## Slow network
+
 If you experience slow network on your fresh WSL2:
+
 - Open Ubuntu (or your other distro)
+
+- Open Network Connections in your settings ("View network connections" in your windows search)
+
 - You should see
 
  ```bash
